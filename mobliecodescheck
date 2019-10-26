@@ -1,0 +1,32 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{clrscr();
+int mobnum=0;
+cout<<"enter your  code number please";
+cin>>mobnum;
+cout<<mobnum<<endl;
+if(mobnum<300 || mobnum>349){
+cout<<"Not a Pakistani Network";
+}
+else
+{
+if(mobnum>=300 && mobnum <=309){
+cout<<"your network is Jazz"<<endl;
+}
+else if (mobnum >= 310 && mobnum <=319){
+cout<<"your network is Zong"<<endl;
+}
+else if (mobnum >= 320 && mobnum <=329){
+cout<<"your network is WARID" <<endl;
+}
+else if (mobnum >= 330 && mobnum <=339){
+cout<<"your network is UFONE"<<endl;}
+else if (mobnum >= 340 && mobnum <=349){
+cout<<"your network is TELENOR"<<endl;
+}
+else{
+cout<<"your are using PTCL"<<endl;
+}}
+getch();
+}
